@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Quotation – Tech Innovate 2026</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  :root {
+    --fg: #1f2937;
+    --muted: #6b7280;
+    --brand: #0ea5e9;
+    --border: #e5e7eb;
+    --bg: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 32px; color: var(--fg); background: var(--bg);
+    font: 14px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  }
+  .wrap { max-width: 780px; margin: 0 auto; }
+  header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .brand { font-weight: 700; font-size: 22px; color: var(--brand); }
+  .meta { text-align: right; font-size: 12px; color: var(--muted); }
+  h1 { font-size: 24px; margin: 8px 0 0; }
+  .card {
+    border: 1px solid var(--border); border-radius: 12px; padding: 16px; background: #fff; margin: 16px 0;
+  }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .04em; }
+  .value { font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 10px 12px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+  th { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+  tfoot td { border-top: 2px solid var(--border); font-weight: 600; }
+  .right { text-align: right; }
+  .muted { color: var(--muted); }
+  .note { font-size: 12px; color: var(--muted); }
+  .pill { display:inline-block; padding: 3px 8px; border:1px solid var(--border); border-radius:999px; font-size:12px; color:var(--muted); }
+  @media print {
+    body { padding: 0; }
+    .card { page-break-inside: avoid; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Header -->
+    <header>
+      <div>
+        <div class="brand">Tech Innovate 2026</div>
+        <div class="muted">San Francisco Convention Center • June 15–17, 2026</div>
+      </div>
+      <div class="meta">
+        <div><span class="label">Quote #</span> Q-260523-233855</div>
+        <div><span class="label">Date</span> 2026-05-23</div>
+        <div><span class="label">Valid Until</span> 2026-06-22</div>
+      </div>
+    </header>
+
+    <h1>Quotation</h1>
+
+    <!-- Parties -->
+    <div class="card grid-2">
+      <div>
+        <div class="label">Prepared For</div>
+        <div class="value"><strong>Margarita Castillo</strong></div>
+        <div class="muted">Google</div>
+        <div class="muted">margarita.castillo@outoftheroutine.com</div>
+        <div class="muted">1-819-383-9360</div>
+      </div>
+      <div>
+        <div class="label">Prepared By</div>
+        <div class="value"><strong>Tech Innovate Sales</strong></div>
+        <div class="muted">sales@techinnovate2026.com</div>
+        <div class="muted">(415) 555-0123</div>
+      </div>
+    </div>
+
+    <!-- Line Items -->
+    <div class="card">
+      <table>
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th class="right">Details</th>
+            <th class="right">Amount (USD)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Booth -->
+          <tr>
+            <td>
+              <strong>PENINSULA Booth</strong><br/>
+              <span class="pill">Booth</span>
+            </td>
+            <td class="right">
+              750 sqft × $70/sqft
+            </td>
+            <td class="right">52500</td>
+          </tr>
+
+          <!-- Registration fee -->
+          <tr>
+            <td class="muted">Registration Fee</td>
+            <td class="right muted">One-time</td>
+            <td class="right">1200</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td></td>
+            <td class="right">Total</td>
+            <td class="right"><strong>53700</strong></td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <!-- Notes / Terms -->
+    <div class="card">
+      <div class="label">Notes & Terms</div>
+      <p class="note">
+        Prices in USD. Payment due per invoice terms. Cancellation per conference policy:
+        full refund by May 15, 2026; 50% refund by June 1, 2026; no refunds after June 1, 2026.
+        For accessibility requests, contact accessibility@techinnovate2026.com by June 1, 2026.
+      </p>
+      <p class="note">
+        Questions? Contact sales at sales@techinnovate2026.com or (415) 555-0123.
+      </p>
+    </div>
+
+    <div class="muted" style="text-align:center; margin-top:16px;">
+      © 2026 Tech Innovate • techinnovate2026.com
+    </div>
+  </div>
+</body>
+</html>
